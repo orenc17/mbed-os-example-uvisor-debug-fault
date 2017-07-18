@@ -1,0 +1,16 @@
+# Misc hidden files
+.DS_Store
+*.sw*
+
+# mbed files and folders
+.build
+BUILD
+mbed-os
+mbed-os/*
+mbed_settings.py*
+.mbed
+
+# Custom Makefile temp files
+gdb.script
+firmware.*
+debug.elf
