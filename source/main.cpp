@@ -53,8 +53,9 @@ int main(void)
 {
     /* Register the debug box with uVisor. */
     uvisor_debug_init(&g_driver);
-
-	BAD_BAD_ADDR = 13;
+    while (1){
+        BAD_BAD_ADDR = 13;
+    }
 
     return 0;
 }
