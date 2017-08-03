@@ -1,1 +1,3 @@
-OH NOOOOO!!!!
+***** uVisor debug box example *****
+Tried to access address 0xFFFFFFFF which is not allowed
+Bye Bye Now!!!!!!

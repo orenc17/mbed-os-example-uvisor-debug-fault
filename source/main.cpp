@@ -38,7 +38,9 @@ static uint32_t get_version(void) {
 }
 
 static void halt_error(int reason) {
-	printf("OH NOOOOO!!!!\n");
+    printf("***** uVisor debug box example *****\n");
+    printf("Tried to access address 0xFFFFFFFF which is not allowed\n");
+	printf("Bye Bye Now!!!!!!\n");
 }
 
 /* Debug box driver -- Version 0 */
