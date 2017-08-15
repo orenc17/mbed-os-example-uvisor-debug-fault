@@ -1,3 +1,25 @@
 ***** uVisor debug box example *****
-Tried to access address 0xFFFFFFFF which is not allowed
-Bye Bye Now!!!!!!
+Failed with an error code\: 0x00000001
+
+Exception stack frame\:
+SP\[07\]\: 0x[0-9a-fA-F]{8} \| xPSR
+SP\[06\]\: 0x[0-9a-fA-F]{8} \| PC
+SP\[05\]\: 0x[0-9a-fA-F]{8} \| LR
+SP\[04\]\: 0x[0-9a-fA-F]{8} \| R12
+SP\[03\]\: 0x[0-9a-fA-F]{8} \| R3
+SP\[02\]\: 0x[0-9a-fA-F]{8} \| R2
+SP\[01\]\: 0x[0-9a-fA-F]{8} \| R1
+SP\[00\]\: 0x[0-9a-fA-F]{8} \| R0
+
+Registers after fault\:
+LR\:      0x[0-9a-fA-F]{8}
+IPSR\:    0x[0-9a-fA-F]{8}
+CONTROL\: 0x[0-9a-fA-F]{8}
+
+Fault registers\:
+CFSR\:  0x[0-9a-fA-F]{8}
+HFSR\:  0x[0-9a-fA-F]{8}
+DFSR\:  0x[0-9a-fA-F]{8}
+AFSR\:  0x[0-9a-fA-F]{8}
+MMFAR\: 0x[0-9a-fA-F]{8}|Invalid
+BFAR\:  0x[0-9a-fA-F]{8}|Invalid

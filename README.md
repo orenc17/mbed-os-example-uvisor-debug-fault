@@ -33,8 +33,30 @@ You will see an output similar to the following one:
 
 ```
 ***** uVisor debug box example *****
-Tried to access address 0xFFFFFFFF which is not allowed
-Bye Bye Now!!!!!!
+Failed with an error code: 0x00000001
+
+Exception stack frame:
+SP[07]: 0x21000000 | xPSR
+SP[06]: 0x00008f70 | PC
+SP[05]: 0x00008f6b | LR
+SP[04]: 0x0000672d | R12
+SP[03]: 0xffffffff | R3
+SP[02]: 0x0000000d | R2
+SP[01]: 0x00000000 | R1
+SP[00]: 0x1fff06c2 | R0
+
+Registers after fault:
+LR:      0xfffffffd
+IPSR:    0x00000005
+CONTROL: 0x00000001
+
+Fault registers:
+CFSR:  0x00000400
+HFSR:  0x00000000
+DFSR:  0x00000008
+AFSR:  0x00000000
+MMFAR: Invalid
+BFAR:  Invalid
 ```
 
 ### Debug
