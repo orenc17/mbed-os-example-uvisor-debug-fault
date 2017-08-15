@@ -33,11 +33,13 @@ uint8_t __attribute__((section(".keep.uvisor.bss.boxes"), aligned(32))) __boxes_
 
 /* Configure box 0 as the debug box. */
 
-static uint32_t get_version(void) {
+static uint32_t get_version(void)
+{
     return 0;
 }
 
-static void halt_error(int reason) {
+static void halt_error(int reason)
+{
     printf("***** uVisor debug box example *****\n");
     printf("Tried to access address 0xFFFFFFFF which is not allowed\n");
 	printf("Bye Bye Now!!!!!!\n");
