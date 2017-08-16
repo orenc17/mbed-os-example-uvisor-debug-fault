@@ -1,5 +1,7 @@
 # Debug box with uVisor example
 
+[![Build Status](https://travis-ci.org/ARMmbed/mbed-os-example-uvisor-debug-fault.svg?branch=master)](https://travis-ci.org/ARMmbed/mbed-os-example-uvisor-debug-fault)
+
 This is a simple example to show how to use uVisor APIs to build a box that implements debug box functionality.
 
 * Create and run secure boxes.
